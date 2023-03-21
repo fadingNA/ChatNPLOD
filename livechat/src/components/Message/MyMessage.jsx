@@ -7,10 +7,12 @@ export default function MyMessage({message}) {
             style={{float: 'right'}}
         />)
     }
-    return (<div className={"message"} style{{
-        float: 'right', marginRight: '19px', color: 'white', backgroundColor: '#fff'
-    }
-    }>
+    return (<div className={"message"} style={{
+        float: 'right',
+        marginRight: '19px',
+        color: 'white',
+        backgroundColor: '#fff'
+    }}>
         {message.text}
     </div>)
 }
